@@ -1,5 +1,5 @@
 # Walle
-[![](https://jitpack.io/v/Petterpx/walle.svg)](https://jitpack.io/#Petterpx/walle)  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Meituan-Dianping/walle/pulls)  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://raw.githubusercontent.com/Meituan-Dianping/walle/master/LICENSE)
+[![](https://jitpack.io/v/Menusyes/walle.svg)](https://jitpack.io/#Menusyes/walle)  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Meituan-Dianping/walle/pulls)  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://raw.githubusercontent.com/Meituan-Dianping/walle/master/LICENSE)
 
 ## 说明
 
@@ -40,7 +40,7 @@ allprojects {
 }
 buildscript {
     dependencies {
-        classpath 'com.github.Petterpx.walle:plugin:1.0.5'
+        classpath 'com.github.Menusyes.walle:plugin:1.0.5'
     }
 }
 ```
@@ -51,7 +51,7 @@ buildscript {
 apply plugin: 'walle'
 
 dependencies {
-    implementation 'com.github.Petterpx.walle:library:1.0.5'
+    implementation 'com.github.Menusyes.walle:library:1.0.5'
 }
 ```
 
